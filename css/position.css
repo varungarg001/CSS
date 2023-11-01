@@ -1,0 +1,51 @@
+#static{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border:2px solid black;
+    position: static;
+    /* there is no change in the position because of postion has static value  */
+    top: 100px;
+    left:100px;
+
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: darkgreen;
+    border:2px solid black;
+    margin:10px;
+    display: inline-block;
+    
+}
+section h2{
+    text-align: center;
+    text-decoration: underline;
+}
+#relative{
+    background-color: yellow;
+    position: relative;
+    top: 50px;
+    left:50px;
+}
+section h3{
+    text-align: center;
+    text-decoration: underline;
+    font:900;
+}
+/* absolute takes the position according to the parent */
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left:100px;
+}
+#fixed{
+    position: fixed;
+    top: 100px;
+    left:100px;
+    background-color: yellow;
+
+}
+
+

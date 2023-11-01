@@ -1,0 +1,8 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("css.jpg.jpg");   
+    background-size: cover;
+}
